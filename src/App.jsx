@@ -1,16 +1,29 @@
-
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "../pages/Home";
-import Project from "../pages/Project";
-import About from "../pages/About";
-import Contact from "../Pages/Contact"; // ✅ FIXED
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Project from "./Pages/Project";
+import Contact from "./Pages/contact";
+
+
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/contact", element: <Contact /> },
-  { path: "/project", element: <Project /> },
-  { path: "/about", element: <About /> },
+  {
+    path: "/",
+    element: <Home /> ,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/project",
+    element: <Project />,
+  },
+  {
+    path: "/contact",
+    element: <Contact /> ,
+  },
 ]);
 
 const App = () => {
