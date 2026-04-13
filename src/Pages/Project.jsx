@@ -20,11 +20,11 @@ const Project = () => {
       live: "https://frontend-colage-event-management.vercel.app/",
     },
     {
-      title: "Task Manager",
-      desc: "Full-stack task manager with CRUD operations and JWT auth.",
-      image: "https://via.placeholder.com/400x200",
+      title: "Upcoming",
+      desc: ".......",
+      image: "https://www.google.com/imgres?q=upcoming%20%20image&imgurl=https%3A%2F%2Fst2.depositphotos.com%2F1008768%2F5535%2Fi%2F450%2Fdepositphotos_55355759-stock-photo-coming-soon.jpg&imgrefurl=https%3A%2F%2Fdepositphotos.com%2Fphotos%2Fupcoming-even.html&docid=NqpdSz95BXNQ6M&tbnid=1lYRKNLMcPxkTM&vet=12ahUKEwim9p-dx-qTAxX-xTgGHXp2BIwQnPAOegQIHRAB..i&w=600&h=507&hcb=2&ved=2ahUKEwim9p-dx-qTAxX-xTgGHXp2BIwQnPAOegQIHRAB",
       github: " ",
-      //live: "#",
+      live: " ",
     },
   ];
 
