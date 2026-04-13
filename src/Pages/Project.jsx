@@ -2,7 +2,7 @@
 import Navbar from '../component/Navbar';
 import Footer from '../component/Footer';
 
-const ProjectsSection = () => {
+const Project = () => {
 
   const projects = [
     {
@@ -99,4 +99,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default Project;
