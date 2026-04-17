@@ -9,6 +9,7 @@ import {
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
+
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#0a0a0b] text-white font-sans p-4 md:p-8">

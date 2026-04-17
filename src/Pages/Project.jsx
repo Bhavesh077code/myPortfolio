@@ -11,7 +11,7 @@ const Project = () => {
       image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/670376551_122346646166004331_5618466667308499673_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=PAztLL5Mz98Q7kNvwGPK12B&_nc_oc=AdrxLQxpWf1_4OQCaiKFzrZFtguG5MoIDNHHFbdXKSVn0CfTiSEs-Q7W0ahnTynbzmshocXva9G-XK9oREs2TD0W&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=o0BYLoM05cuQVGqX4LBntQ&_nc_ss=7a3a8&oh=00_Af3oQ8rEGQ5QqIduhHjtMScvcWbKJyY0nLGuXXsNfZByJw&oe=69E43CF8",
       github: "https://github.com/Bhavesh077code/EXPENSE-MANAGEMENT-SYSTEM.git",
       live: "https://frontend-expanse-mangeemnt-system.vercel.app/",
-    },managing
+    },
     {
       title: "College Event Management System",
       desc: "A web application for  college events.",
