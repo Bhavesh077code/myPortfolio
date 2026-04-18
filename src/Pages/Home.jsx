@@ -32,7 +32,7 @@ const Home = () => {
         <div className="bg-[#111113] border border-gray-800 rounded-xl p-6 flex flex-col items-center text-center">
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-blue-500/20 mb-4">
             <img
-              src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/485732185_1850665882429200_1874730380076376134_n.jpg?stp=c0.181.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=5df8b4&_nc_ohc=iP0D6wcGuA8Q7kNvwGtoAO3&_nc_oc=AdrWJJ8iPp0zyXYcpvNY6iI3U7YdtQ5pKeuZbbuhZNAo4Vi9tb7NY6FlDW9bM8Hl8rSPmrEGhk6HM1YC_N_Hu7oV&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=tijIwUi1t-fHmMdEFHfbxg&_nc_ss=7a3a8&oh=00_Af39Uuc2uLM0ssWvq3eIzT2HeWi3yFSzO4CTvJ1V2LUDcQ&oe=69E22271"
+              src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/671579969_2167454134083705_2380383236102308248_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_ohc=xq1pzm-lgdwQ7kNvwF3PdcT&_nc_oc=AdqhXZiPlbwZJbg1Xj65CSLjf8Ab-HIiQa3M569iPTV7wBCtYZmR-LalDMuqmIyzMNFBYELnJwjuV3pOe53mh-Is&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=ePZygwJsf0DlYyfKyfHJ9g&_nc_ss=7a3a8&oh=00_Af2qk1cAHxcgh8pRnvtFAmaYdkgz6AvTpXiCf4I2OtpE7A&oe=69E959DD"
               alt="Profile"
               className="w-full h-full"
             />
