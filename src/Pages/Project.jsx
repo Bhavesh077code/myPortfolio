@@ -8,9 +8,9 @@ const Project = () => {
     {
       title: "Expanse Mangement System",
       desc: "Mahage daily expanse who spend money and how much money spend in which category.",
-      image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/670376551_122346646166004331_5618466667308499673_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=PAztLL5Mz98Q7kNvwGPK12B&_nc_oc=AdrxLQxpWf1_4OQCaiKFzrZFtguG5MoIDNHHFbdXKSVn0CfTiSEs-Q7W0ahnTynbzmshocXva9G-XK9oREs2TD0W&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=o0BYLoM05cuQVGqX4LBntQ&_nc_ss=7a3a8&oh=00_Af3oQ8rEGQ5QqIduhHjtMScvcWbKJyY0nLGuXXsNfZByJw&oe=69E43CF8",
+      image: "https://scontent.fpkr3-1.fna.fbcdn.net/v/t39.30808-6/670376551_122346646166004331_5618466667308499673_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHa7pla5Tvt8VmxPLKujAIO0Uu4_GSxXZzRS7j8ZLFdnDr6SlVA8RkX6NOZCDbgXUFTlvxzlOh1nvuqbrZ3yiqn&_nc_ohc=4QKpq_f80uEQ7kNvwE_vsI9&_nc_oc=AdpDSfz6YDJKsipNCNQ_r6urbXGzlcYn0edcS19k0letST2ILQNnjM5dxfoD_MuI0edI4anEvjBhRaRtOjim1diP&_nc_zt=23&_nc_ht=scontent.fpkr3-1.fna&_nc_gid=f-s_dRuolhvBUvm9FmXdqA&_nc_ss=7b2a8&oh=00_Af4JNiUps3-mK0a5ort1_OEVaeBg4fqi4H5FKUutq0SlWw&oe=6A0A4038",
       github: "https://github.com/Bhavesh077code/EXPENSE-MANAGEMENT-SYSTEM.git",
-      live: "https://frontend-expanse-mangeemnt-system.vercel.app/",
+      live: "https://frontend-expanse-mangement-system.vercel.app/",
     },
     {
       title: "College Event Management System",
@@ -34,7 +34,7 @@ const Project = () => {
       <div className=" flex flex-col items-center text-center">
         <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-blue-500/20 mb-4">
           <img
-            src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/485732185_1850665882429200_1874730380076376134_n.jpg?stp=c0.181.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=5df8b4&_nc_ohc=e_QXUfcYSAAQ7kNvwGzGT1W&_nc_oc=Adqqw7_00zhvwlbuG50vrJ43gdMHJgWuONZyp15yBAyVuGR5HGWRFz-cPtwRkrOkulUlk3g5AbK5xE-nUS3WeXiS&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=_Lq6Stfcb3mMhFwSIf5uUA&_nc_ss=7a3a8&oh=00_Af26TMFpq7gxeEE7v_ahl9SdB_FLuYsUtmldRiGahZcTXA&oe=69E962B1"
+            src="https://scontent.fpkr3-1.fna.fbcdn.net/v/t39.30808-6/485732185_1850665882429200_1874730380076376134_n.jpg?stp=c0.181.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeHM3q1Br5nH-UO0s7xWiPjCKE7fLLImkWYoTt8ssiaRZgAqBvVRBoQFQwRH-w-3zYJD433yilChw45lcjon5yV-&_nc_ohc=isA-QNHmPpMQ7kNvwGvAqmQ&_nc_oc=Adq75kqm7J_84PewigLbI8z4GBl68kE3drI9ORwCBqyHlXDS_ZchunAADPruaKLm4uqDkM4Nr8r2wiG7M8HcoMcO&_nc_zt=23&_nc_ht=scontent.fpkr3-1.fna&_nc_gid=W3F1EPXakIx1UByVTjgldQ&_nc_ss=7b2a8&oh=00_Af44cGizQPYcuh7Az-OORAoXcN2_ShdSecUBCB3Rz3GpWw&oe=6A0A1FF1"
             alt="Profile"
             className="w-full h-full"
           />

@@ -13,7 +13,7 @@ const About = () => {
         <div className="flex flex-col items-center text-center mt-6">
           <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-blue-500/20">
             <img
-              src="https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-6/485732185_1850665882429200_1874730380076376134_n.jpg?stp=c0.181.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=5df8b4&_nc_ohc=e_QXUfcYSAAQ7kNvwGzGT1W&_nc_oc=Adqqw7_00zhvwlbuG50vrJ43gdMHJgWuONZyp15yBAyVuGR5HGWRFz-cPtwRkrOkulUlk3g5AbK5xE-nUS3WeXiS&_nc_zt=23&_nc_ht=scontent.fktm3-1.fna&_nc_gid=_Lq6Stfcb3mMhFwSIf5uUA&_nc_ss=7a3a8&oh=00_Af26TMFpq7gxeEE7v_ahl9SdB_FLuYsUtmldRiGahZcTXA&oe=69E962B1"
+              src="https://scontent.fpkr3-1.fna.fbcdn.net/v/t39.30808-6/485732185_1850665882429200_1874730380076376134_n.jpg?stp=c0.181.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeHM3q1Br5nH-UO0s7xWiPjCKE7fLLImkWYoTt8ssiaRZgAqBvVRBoQFQwRH-w-3zYJD433yilChw45lcjon5yV-&_nc_ohc=isA-QNHmPpMQ7kNvwGvAqmQ&_nc_oc=Adq75kqm7J_84PewigLbI8z4GBl68kE3drI9ORwCBqyHlXDS_ZchunAADPruaKLm4uqDkM4Nr8r2wiG7M8HcoMcO&_nc_zt=23&_nc_ht=scontent.fpkr3-1.fna&_nc_gid=W3F1EPXakIx1UByVTjgldQ&_nc_ss=7b2a8&oh=00_Af44cGizQPYcuh7Az-OORAoXcN2_ShdSecUBCB3Rz3GpWw&oe=6A0A1FF1"
               alt="Profile"
               className="w-full h-full object-cover"
             />
@@ -28,8 +28,6 @@ const About = () => {
 
           <p className="mt-4 text-gray-400 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
              Hey' my name is Bhavesh Kumar Yadav. I am a computer engineering student.
-            I have skills in programming and problem solving. Node.js Backend Devloper focused on backend development.
-            I am looking for an opportunity to grow my career in IT.
           </p>
         </section>
 
@@ -41,10 +39,7 @@ const About = () => {
               Who I Am
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed">
-              I am an aspiring Backend Developer with 7 months of practical experience in Node.js and MongoDB.
-              I have worked on building REST APIs, authentication systems, and backend logic for real-world projects.
-              I am continuously learning advanced concepts like clean architecture,<u> load balancing, security best practices, and deployment (DevOps)</u>.
-              I am passionate about building efficient and scalable systems, and I aim to grow into a professional full-stack developer.
+              
             </p>
           </div>
 
@@ -53,9 +48,7 @@ const About = () => {
               My Goal
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed">
-              My goal is to become a top-tier backend engineer and build systems
-              that can scale to millions of users while maintaining reliability
-              and efficiency.
+             
             </p>
           </div>
 
@@ -140,11 +133,7 @@ const About = () => {
             Experience
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Backend Developer (Self-Learning) with 9 months of hands-on experience in Node.js and MongoDB.
-            Built a College Event Management System with features like event creation, user registration, and admin control.
-            Developed an Expense Management System to track and manage daily expenses using CRUD operations and Email OTP Verification System.
-            Experienced in building RESTful APIs, authentication systems, and database handling.
-            Currently learning advanced concepts like clean architecture, backend security, and DevOps.
+           
 
           </p>
         </section>
