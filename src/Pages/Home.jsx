@@ -165,69 +165,77 @@ import {
   Globe,
   Database,
   Cloud,
-  Code2,
   ArrowRight,
 } from "lucide-react";
 
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import bhavesh from "../assets/bhavesh.jpg";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-[#050505] text-white overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-[#050505] via-[#0a0a0a] to-black text-white overflow-hidden relative">
+      
       <Navbar />
 
-      {/* Background Glow */}
+      {/* BACKGROUND GLOW */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-500/10 blur-[120px] rounded-full"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 blur-[120px] rounded-full"></div>
 
-      <div className="relative z-10 px-6 md:px-12 py-10 max-w-7xl mx-auto">
-        
-        {/* HERO */}
-        <section className="text-center mb-20">
-          <p className="uppercase tracking-[0.3em] text-yellow-400 text-sm mb-4">
+      <div className="relative z-10 w-full px-4 sm:px-6 md:px-12 py-8 md:py-10 max-w-7xl mx-auto">
+
+        {/* HERO SECTION */}
+        <section className="text-center mb-14 md:mb-20 pt-4 md:pt-10">
+
+          <p className="uppercase tracking-[0.25em] text-yellow-400 text-xs sm:text-sm mb-4">
             Backend Developer
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight mb-6">
             BUILDING
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500">
               SCALABLE SYSTEMS
             </span>
           </h1>
 
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
+          <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed px-2">
             I build fast, scalable and production-ready backend systems using
             Node.js, Express, Microservices and Cloud Technologies.
           </p>
 
-          <div className="flex justify-center gap-4 mt-8">
-            <button className="bg-yellow-500 hover:bg-yellow-400 transition-all px-6 py-3 rounded-xl text-black font-semibold flex items-center gap-2">
+          {/* BUTTONS */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+
+            <button className="bg-yellow-500 hover:bg-yellow-400 transition-all duration-300 px-6 py-3 rounded-xl text-black font-semibold flex items-center justify-center gap-2 shadow-lg shadow-yellow-500/20 hover:scale-105">
               View Projects <ArrowRight size={18} />
             </button>
 
-            <button className="border border-gray-700 hover:border-gray-500 px-6 py-3 rounded-xl transition-all">
+            <button className="border border-gray-700 hover:border-gray-500 hover:bg-white/5 px-6 py-3 rounded-xl transition-all duration-300">
               Contact Me
             </button>
+
           </div>
         </section>
 
         {/* MAIN GRID */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-6">
+
           {/* LEFT PROFILE CARD */}
-          <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-yellow-500/30 transition-all duration-300">
+          <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-yellow-500/30">
+
             <div className="flex flex-col items-center text-center">
-              
+
+              {/* PROFILE IMAGE */}
               <div className="relative mb-6">
+
                 <div className="absolute inset-0 bg-yellow-500 blur-2xl opacity-20 rounded-full"></div>
 
                 <img
                   src={bhavesh}
                   alt="Bhavesh"
-                  className="relative w-36 h-36 rounded-full object-cover border-4 border-yellow-500/20"
+                  className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full object-cover border-4 border-yellow-500/20"
                 />
               </div>
 
@@ -241,65 +249,77 @@ const Home = () => {
 
               <p className="text-gray-400 text-sm leading-relaxed">
                 Passionate backend developer focused on scalable APIs,
-                microservices architecture, authentication systems and cloud deployment.
+                microservices architecture, authentication systems and
+                cloud deployment.
               </p>
 
-              {/* SOCIALS */}
+              {/* SOCIAL LINKS */}
               <div className="flex gap-4 mt-6">
+
                 <a
                   href="#"
-                  className="p-3 rounded-xl bg-white/5 hover:bg-yellow-500 hover:text-black transition-all"
+                  className="p-3 rounded-xl bg-white/5 hover:bg-yellow-500 hover:text-black transition-all duration-300"
                 >
                   <FaGithub size={18} />
                 </a>
 
                 <a
                   href="#"
-                  className="p-3 rounded-xl bg-white/5 hover:bg-blue-500 transition-all"
+                  className="p-3 rounded-xl bg-white/5 hover:bg-blue-500 transition-all duration-300"
                 >
                   <FaLinkedin size={18} />
                 </a>
+
               </div>
             </div>
           </div>
 
-          {/* CENTER ARCHITECTURE CARD */}
-          <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-cyan-500/30 transition-all duration-300">
-            
+          {/* CENTER CARD */}
+          <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-cyan-500/30">
+
             <h3 className="text-center text-sm uppercase tracking-[0.3em] text-gray-400 mb-10">
               System Architecture
             </h3>
 
             <div className="flex flex-col items-center">
-              
-              <div className="flex items-center justify-center gap-5">
-                
+
+              {/* ARCHITECTURE FLOW */}
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
+
+                {/* CLIENT */}
                 <div className="flex flex-col items-center">
                   <div className="p-4 rounded-2xl bg-blue-500/10 border border-blue-500/20">
                     <Globe className="text-blue-400" />
                   </div>
+
                   <span className="mt-2 text-xs text-gray-400">
                     Client
                   </span>
                 </div>
 
-                <div className="w-14 h-[2px] bg-gradient-to-r from-blue-500 to-green-500"></div>
+                {/* LINE */}
+                <div className="hidden sm:block w-14 h-[2px] bg-gradient-to-r from-blue-500 to-green-500"></div>
 
+                {/* SERVER */}
                 <div className="flex flex-col items-center">
                   <div className="p-4 rounded-2xl bg-green-500/10 border border-green-500/20">
                     <Server className="text-green-400" />
                   </div>
+
                   <span className="mt-2 text-xs text-gray-400">
                     API Server
                   </span>
                 </div>
 
-                <div className="w-14 h-[2px] bg-gradient-to-r from-green-500 to-orange-500"></div>
+                {/* LINE */}
+                <div className="hidden sm:block w-14 h-[2px] bg-gradient-to-r from-green-500 to-orange-500"></div>
 
+                {/* DATABASE */}
                 <div className="flex flex-col items-center">
                   <div className="p-4 rounded-2xl bg-orange-500/10 border border-orange-500/20">
                     <Database className="text-orange-400" />
                   </div>
+
                   <span className="mt-2 text-xs text-gray-400">
                     Database
                   </span>
@@ -307,38 +327,50 @@ const Home = () => {
               </div>
 
               {/* CODE BLOCK */}
-              <div className="mt-10 w-full bg-black/50 border border-gray-800 rounded-2xl p-5 font-mono text-sm">
-                <p className="text-pink-400">const</p>
-                <p className="text-green-400 ml-4">
+              <div className="mt-10 w-full bg-black/50 border border-gray-800 rounded-2xl p-5 font-mono text-sm overflow-x-auto">
+
+                <p className="text-pink-400">
+                  const app = express();
+                </p>
+
+                <p className="text-green-400 mt-2">
                   app.use("/api", routes);
                 </p>
-                <p className="text-cyan-400 ml-4">
+
+                <p className="text-cyan-400 mt-2">
                   connectDatabase();
                 </p>
+
               </div>
 
+              {/* CLOUD */}
               <div className="mt-8 flex items-center gap-3 bg-cyan-500/10 border border-cyan-500/20 px-5 py-3 rounded-2xl">
+
                 <Cloud className="text-cyan-400" />
+
                 <span className="text-sm text-gray-300">
                   AWS Cloud Deployment
                 </span>
+
               </div>
             </div>
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-5 md:gap-6">
 
-            {/* PROJECTS */}
-            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-purple-500/30 transition-all duration-300">
-              
+            {/* PROJECTS CARD */}
+            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/30">
+
               <h3 className="text-lg font-bold mb-6">
                 Featured Projects
               </h3>
 
               <div className="space-y-6">
-                
+
+                {/* PROJECT 1 */}
                 <div className="group cursor-pointer">
+
                   <h4 className="text-yellow-400 font-semibold group-hover:translate-x-1 transition-all">
                     Expense Management System
                   </h4>
@@ -346,9 +378,12 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-1">
                     High performance financial tracking system with JWT auth and analytics dashboard.
                   </p>
+
                 </div>
 
+                {/* PROJECT 2 */}
                 <div className="group cursor-pointer">
+
                   <h4 className="text-blue-400 font-semibold group-hover:translate-x-1 transition-all">
                     College Event Management
                   </h4>
@@ -356,18 +391,21 @@ const Home = () => {
                   <p className="text-sm text-gray-400 mt-1">
                     Real-time event platform using Socket.io and cloud database integration.
                   </p>
+
                 </div>
+
               </div>
             </div>
 
-            {/* SKILLS */}
-            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-green-500/30 transition-all duration-300">
-              
+            {/* SKILLS CARD */}
+            <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-green-500/30">
+
               <h3 className="text-lg font-bold mb-6">
                 Core Skills
               </h3>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap justify-center lg:justify-start gap-3">
+
                 {[
                   "Node.js",
                   "Express",
@@ -380,11 +418,12 @@ const Home = () => {
                 ].map((skill, index) => (
                   <div
                     key={index}
-                    className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 hover:bg-yellow-500 hover:text-black transition-all cursor-pointer"
+                    className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 hover:bg-yellow-500 hover:text-black transition-all duration-300 cursor-pointer hover:scale-105"
                   >
                     {skill}
                   </div>
                 ))}
+
               </div>
             </div>
 
