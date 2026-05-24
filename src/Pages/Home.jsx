@@ -1,4 +1,4 @@
-/*
+
 import React from "react";
 import {
   Server,
@@ -84,6 +84,25 @@ const Home = () => {
             <div className="mt-8 w-full bg-black/40 p-3 rounded font-mono text-[10px] text-green-500 border border-gray-800">
               <p>const app = express();</p>
               <p>app.use('/api', routes);</p>
+              <p>connectDatabase();</p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <div className="mt-10 w-full bg-black/50 border border-gray-800 rounded-2xl p-5 font-mono text-sm overflow-x-auto">
+
+                <p className="text-pink-400">
+                  const app = express();
+                </p>
+
+                <p className="text-green-400 mt-2">
+                  app.use("/api", routes);
+                </p>
+
+                <p className="text-cyan-400 mt-2">
+                  connectDatabase();
+                </p>
+
+              </div>
             </div>
 
             <div className="mt-4 flex flex-col items-center">
@@ -156,9 +175,9 @@ const Home = () => {
 
 export default Home;
 
-*/
 
 
+/*
 import React from "react";
 import {
   Server,
@@ -180,13 +199,13 @@ const Home = () => {
       
       <Navbar />
 
-      {/* BACKGROUND GLOW */}
+     
       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-500/10 blur-[120px] rounded-full"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 blur-[120px] rounded-full"></div>
 
       <div className="relative z-10 w-full px-4 sm:px-6 md:px-12 py-8 md:py-10 max-w-7xl mx-auto">
 
-        {/* HERO SECTION */}
+
         <section className="text-center mb-14 md:mb-20 pt-4 md:pt-10">
 
           <p className="uppercase tracking-[0.25em] text-yellow-400 text-xs sm:text-sm mb-4">
@@ -205,7 +224,7 @@ const Home = () => {
             Node.js, Express, Microservices and Cloud Technologies.
           </p>
 
-          {/* BUTTONS */}
+         
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
 
             <button className="bg-yellow-500 hover:bg-yellow-400 transition-all duration-300 px-6 py-3 rounded-xl text-black font-semibold flex items-center justify-center gap-2 shadow-lg shadow-yellow-500/20 hover:scale-105">
@@ -219,15 +238,14 @@ const Home = () => {
           </div>
         </section>
 
-        {/* MAIN GRID */}
+ 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-6">
 
-          {/* LEFT PROFILE CARD */}
+         
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-yellow-500/30">
 
             <div className="flex flex-col items-center text-center">
 
-              {/* PROFILE IMAGE */}
               <div className="relative mb-6">
 
                 <div className="absolute inset-0 bg-yellow-500 blur-2xl opacity-20 rounded-full"></div>
@@ -253,7 +271,7 @@ const Home = () => {
                 cloud deployment.
               </p>
 
-              {/* SOCIAL LINKS */}
+             
               <div className="flex gap-4 mt-6">
 
                 <a
@@ -274,7 +292,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* CENTER CARD */}
+       
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-cyan-500/30">
 
             <h3 className="text-center text-sm uppercase tracking-[0.3em] text-gray-400 mb-10">
@@ -283,10 +301,10 @@ const Home = () => {
 
             <div className="flex flex-col items-center">
 
-              {/* ARCHITECTURE FLOW */}
+            
               <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
 
-                {/* CLIENT */}
+                
                 <div className="flex flex-col items-center">
                   <div className="p-4 rounded-2xl bg-blue-500/10 border border-blue-500/20">
                     <Globe className="text-blue-400" />
@@ -297,10 +315,9 @@ const Home = () => {
                   </span>
                 </div>
 
-                {/* LINE */}
                 <div className="hidden sm:block w-14 h-[2px] bg-gradient-to-r from-blue-500 to-green-500"></div>
 
-                {/* SERVER */}
+             
                 <div className="flex flex-col items-center">
                   <div className="p-4 rounded-2xl bg-green-500/10 border border-green-500/20">
                     <Server className="text-green-400" />
@@ -311,10 +328,10 @@ const Home = () => {
                   </span>
                 </div>
 
-                {/* LINE */}
+        
                 <div className="hidden sm:block w-14 h-[2px] bg-gradient-to-r from-green-500 to-orange-500"></div>
 
-                {/* DATABASE */}
+  
                 <div className="flex flex-col items-center">
                   <div className="p-4 rounded-2xl bg-orange-500/10 border border-orange-500/20">
                     <Database className="text-orange-400" />
@@ -326,7 +343,6 @@ const Home = () => {
                 </div>
               </div>
 
-              {/* CODE BLOCK */}
               <div className="mt-10 w-full bg-black/50 border border-gray-800 rounded-2xl p-5 font-mono text-sm overflow-x-auto">
 
                 <p className="text-pink-400">
@@ -343,7 +359,7 @@ const Home = () => {
 
               </div>
 
-              {/* CLOUD */}
+           
               <div className="mt-8 flex items-center gap-3 bg-cyan-500/10 border border-cyan-500/20 px-5 py-3 rounded-2xl">
 
                 <Cloud className="text-cyan-400" />
@@ -356,10 +372,10 @@ const Home = () => {
             </div>
           </div>
 
-          {/* RIGHT SIDE */}
+          
           <div className="flex flex-col gap-5 md:gap-6">
 
-            {/* PROJECTS CARD */}
+           
             <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/30">
 
               <h3 className="text-lg font-bold mb-6">
@@ -368,7 +384,7 @@ const Home = () => {
 
               <div className="space-y-6">
 
-                {/* PROJECT 1 */}
+             
                 <div className="group cursor-pointer">
 
                   <h4 className="text-yellow-400 font-semibold group-hover:translate-x-1 transition-all">
@@ -381,7 +397,7 @@ const Home = () => {
 
                 </div>
 
-                {/* PROJECT 2 */}
+              
                 <div className="group cursor-pointer">
 
                   <h4 className="text-blue-400 font-semibold group-hover:translate-x-1 transition-all">
@@ -397,7 +413,6 @@ const Home = () => {
               </div>
             </div>
 
-            {/* SKILLS CARD */}
             <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:-translate-y-2 hover:border-green-500/30">
 
               <h3 className="text-lg font-bold mb-6">
@@ -437,3 +452,5 @@ const Home = () => {
 };
 
 export default Home;
+
+*/
