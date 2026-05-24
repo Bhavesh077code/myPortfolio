@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from '../component/Navbar';
 import Footer from '../component/Footer';
+import bhavesh from "../assets/bhavesh.jpg";
 
 const Project = () => {
 
@@ -34,7 +35,7 @@ const Project = () => {
       <div className=" flex flex-col items-center text-center">
         <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-blue-500/20 mb-4">
           <img
-            src="https://scontent.fpkr3-1.fna.fbcdn.net/v/t39.30808-6/485732185_1850665882429200_1874730380076376134_n.jpg?stp=c0.181.1080.1080a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeHM3q1Br5nH-UO0s7xWiPjCKE7fLLImkWYoTt8ssiaRZgAqBvVRBoQFQwRH-w-3zYJD433yilChw45lcjon5yV-&_nc_ohc=isA-QNHmPpMQ7kNvwGvAqmQ&_nc_oc=Adq75kqm7J_84PewigLbI8z4GBl68kE3drI9ORwCBqyHlXDS_ZchunAADPruaKLm4uqDkM4Nr8r2wiG7M8HcoMcO&_nc_zt=23&_nc_ht=scontent.fpkr3-1.fna&_nc_gid=W3F1EPXakIx1UByVTjgldQ&_nc_ss=7b2a8&oh=00_Af44cGizQPYcuh7Az-OORAoXcN2_ShdSecUBCB3Rz3GpWw&oe=6A0A1FF1"
+            src={bhavesh}
             alt="Profile"
             className="w-full h-full"
           />
