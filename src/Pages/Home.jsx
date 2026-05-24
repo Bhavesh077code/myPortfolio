@@ -166,14 +166,13 @@ import {
   Database,
   Cloud,
   Code2,
-  Github,
-  Linkedin,
   ArrowRight,
 } from "lucide-react";
 
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import bhavesh from "../assets/bhavesh.jpg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -251,14 +250,14 @@ const Home = () => {
                   href="#"
                   className="p-3 rounded-xl bg-white/5 hover:bg-yellow-500 hover:text-black transition-all"
                 >
-                  <Github size={18} />
+                  <FaGithub size={18} />
                 </a>
 
                 <a
                   href="#"
                   className="p-3 rounded-xl bg-white/5 hover:bg-blue-500 transition-all"
                 >
-                  <Linkedin size={18} />
+                  <FaLinkedin size={18} />
                 </a>
               </div>
             </div>
