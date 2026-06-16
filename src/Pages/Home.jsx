@@ -1,16 +1,9 @@
-
 import React from "react";
-import {
-  Server,
-  Globe,
-  Database,
-  Cloud,
-  Code2
-} from "lucide-react";
+import { Server, Globe, Database, Cloud, Code2, MergeIcon } from "lucide-react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import bhavesh from "../assets/bhavesh.jpg";
-
+import Typewriter from "../component/TypeWriter";
 
 const Home = () => {
   return (
@@ -19,47 +12,52 @@ const Home = () => {
 
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">
-          BUILDING <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">SCALABLE</span> BACKEND SYSTEMS
+          BUILDING{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">
+            SCALABLE
+          </span>{" "}
+          BACKEND SYSTEMS
         </h1>
         <p className="text-gray-400 text-lg">
           Node.js, API Design, and Microservices.
         </p>
       </div>
 
-   
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-
-      
         <div className="bg-[#111113] border border-gray-800 rounded-xl p-6 flex flex-col items-center text-center">
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-blue-500/20 mb-4">
-            <img
-              src={bhavesh}
-              alt="Profile"
-              className="w-full h-full"
-            />
+            <img src={bhavesh} alt="Profile" className="w-full h-full" />
           </div>
 
           <h3 className="font-bold text-lg mb-2">ABOUT ME</h3>
           <p className="text-gray-400 text-sm mb-6">
-            Dedicated developer focusing on robust and efficient server-side logic.
+            Dedicated developer focusing on robust and efficient server-side
+            logic.
           </p>
-
-          <div className="flex gap-4">
-
+          <div className="flex-1 mx-2 text-center overflow-hidden">
+            <div className="text-3xl text-gray-400 font-bold mb-4 ">
+              <Typewriter
+                words={[
+                  "Welcome To My Portfolio",
+                  "BACKEND DEVLOPER",
+                  "BHAVESH YADAV",
+                  "FRONTEND DEVLOPER: BHAVESH YADAV",
+                  "Continus Learning",
+                ]}
+              />
+            </div>
           </div>
+
+          <div className="flex gap-4"></div>
         </div>
 
-        
         <div className="bg-[#111113] border border-gray-800 rounded-xl p-6">
-
           <h3 className="text-center text-sm font-bold text-gray-500 mb-8 uppercase tracking-widest">
             API Architecture
           </h3>
 
           <div className="flex flex-col items-center gap-4">
-
             <div className="flex items-center gap-6">
-
               <div className="flex flex-col items-center">
                 <Globe className="text-blue-400 mb-1" />
                 <span className="text-[10px]">CLIENT</span>
@@ -78,30 +76,25 @@ const Home = () => {
                 <Database className="text-orange-400 mb-1" />
                 <span className="text-[10px]">DB</span>
               </div>
-
             </div>
 
             <div className="mt-8 w-full bg-black/40 p-3 rounded font-mono text-[10px] text-green-500 border border-gray-800">
-              <p>const app = express();</p>
-              <p>app.use('/api', routes);</p>
-              <p>connectDatabase();</p>
+              <Typewriter 
+                words={[
+                  "const app = express();",
+                  "app.use('/api', routes);",
+                  "connectDatabase();",
+                ]}
+              />
             </div>
 
             <div className="flex flex-col items-center">
               <div className="mt-10 w-full bg-black/50 border border-gray-800 rounded-2xl p-5 font-mono text-sm overflow-x-auto">
+                <p className="text-pink-400">const app = express();</p>
 
-                <p className="text-pink-400">
-                  const app = express();
-                </p>
+                <p className="text-green-400 mt-2">app.use("/api", routes);</p>
 
-                <p className="text-green-400 mt-2">
-                  app.use("/api", routes);
-                </p>
-
-                <p className="text-cyan-400 mt-2">
-                  connectDatabase();
-                </p>
-
+                <p className="text-cyan-400 mt-2">connectDatabase();</p>
               </div>
             </div>
 
@@ -109,14 +102,10 @@ const Home = () => {
               <Cloud className="text-cyan-400 mb-1" />
               <span className="text-[10px]">AWS CLOUD</span>
             </div>
-
           </div>
         </div>
 
-       
         <div className="flex flex-col gap-6">
-
-         
           <div className="bg-[#111113] border border-gray-800 rounded-xl p-6">
             <h3 className="font-bold text-sm mb-4 border-b border-gray-800 pb-2">
               KEY PROJECTS
@@ -143,7 +132,6 @@ const Home = () => {
             </div>
           </div>
 
-        
           <div className="bg-[#111113] border border-gray-800 rounded-xl p-6">
             <h3 className="font-bold text-sm mb-4 border-b border-gray-800 pb-2">
               CORE SKILLS
@@ -163,9 +151,7 @@ const Home = () => {
                 <Server className="text-purple-500" />
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
       <Footer />
@@ -174,8 +160,6 @@ const Home = () => {
 };
 
 export default Home;
-
-
 
 /*
 import React from "react";

@@ -43,7 +43,7 @@ const About = () => {
               Who I Am
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed">
-              I am an aspiring Backend Developer with 9 months of practical experience in Node.js and MongoDB.
+              I am an aspiring Backend Developer with 1 year of practical experience in Node.js and MongoDB.
               I have worked on building REST APIs, authentication systems, and backend logic for real-world projects.
               I am continuously learning advanced concepts like clean architecture,<u> load balancing, security best practices, and deployment (DevOps)</u>.
               I am passionate about building efficient and scalable systems, and I aim to grow into a professional full-stack developer.
@@ -141,7 +141,7 @@ const About = () => {
             Experience
           </h2>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Backend Developer (Self-Learning) with 9 months of hands-on experience in Node.js and MongoDB.
+            Backend Developer (Self-Learning) with 1 year of hands-on experience in Node.js and MongoDB.
             Built a College Event Management System with features like event creation, user registration, and admin control.
             Developed an Expense Management System to track and manage daily expenses using CRUD operations and Email OTP Verification System.
             Experienced in building RESTful APIs, authentication systems, and database handling.
