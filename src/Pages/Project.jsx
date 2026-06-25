@@ -5,6 +5,7 @@ import bhavesh from "../assets/bhavesh.jpg";
 import resume from "../assets/resume.png";
 import expanse from "../assets/expanse.png";
 import event from "../assets/event.png";
+import connect from "../assets/connect.png";
 
 const Project = () => {
 
@@ -29,6 +30,13 @@ const Project = () => {
       image:  resume,
       github: " ",
       live: " ",
+    },
+     {
+      title: "G-Connect",
+      desc: "A complete role-based social media application built with React + Node.js + MongoDB featuring posts, likes, comments, follow system, and more!",
+      image: connect,
+      github: "https://github.com/Bhavesh077code/G-Connect.git",
+      live: "",
     },
   ];
 
